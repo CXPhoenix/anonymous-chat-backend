@@ -2,10 +2,10 @@
 ## Backend APP
 
 > author: CXPhoneix\
-> Evironment: Python 3.9.8\
+> Environment: Python 3.9.8\
 > Framework: FastAPI\
 > DataBase: MongoDB 5.0.5
-> DataBase Evironment: docker on win10 professional
+> DataBase Environment: docker on win10 professional
 
 ---
 
