@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 class DataBaseManager:
-    def __init__(self):
-        self.__client = MongoClient('localhost')
+    def __init__(self, username: str = None, password: str = None):
+        self.__client = MongoClient('localhost', username=username, password=password)
         self.__db = self.__client.conversationDB
         self.__collection = self.__db.conversations
     def read_all(self):
